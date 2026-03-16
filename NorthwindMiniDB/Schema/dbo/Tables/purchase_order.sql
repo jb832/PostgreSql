@@ -9,7 +9,7 @@ CREATE TABLE dbo.purchase_order
     ship_name               VARCHAR(40)     NULL,
     ship_address            VARCHAR(60)     NULL,
     ship_city               VARCHAR(15)     NULL,
-    ship_postalcode         VARCHAR(10)     NULL,
+    ship_postal_code        VARCHAR(10)     NULL,
     ship_country            VARCHAR(15)     NULL,
 
     CONSTRAINT pk_purchase_order

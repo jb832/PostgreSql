@@ -11,7 +11,7 @@ CREATE TABLE dbo.product
     units_in_stock          INT                 NOT NULL CONSTRAINT df_product__units_in_stock DEFAULT 0,
     units_on_order          INT                 NOT NULL CONSTRAINT df_product__units_on_order DEFAULT 0,
     reorder_level           INT                 NOT NULL CONSTRAINT df_product__reorder_level DEFAULT 0,
-    discontinued            BIT                 NOT NULL CONSTRAINT df_product__discontinued DEFAULT '0'::bit,
+    discontinued            BOOLEAN             NOT NULL CONSTRAINT df_product__discontinued DEFAULT false,
 
     CONSTRAINT pk_product
         PRIMARY KEY (product_id),

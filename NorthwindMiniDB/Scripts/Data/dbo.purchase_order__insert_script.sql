@@ -1,7 +1,7 @@
 -- dbo.purchase_order__insert_script.sql
 
 
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'VINET','1996-07-04 00:00:00.0','1996-07-16 00:00:00.0',N'Vins et alcools Chevalier',N'59 rue de l''Abbaye',N'Reims',N'51100',N'France'),
 	 (N'TOMSP','1996-07-05 00:00:00.0','1996-07-10 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany'),
 	 (N'HANAR','1996-07-08 00:00:00.0','1996-07-12 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
@@ -12,7 +12,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'RICSU','1996-07-12 00:00:00.0','1996-07-15 00:00:00.0',N'Richter Supermarkt',N'Starenweg 5',N'Genève',N'1204',N'Switzerland'),
 	 (N'WELLI','1996-07-15 00:00:00.0','1996-07-17 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
 	 (N'HILAA','1996-07-16 00:00:00.0','1996-07-22 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ERNSH','1996-07-17 00:00:00.0','1996-07-23 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'CENTC','1996-07-18 00:00:00.0','1996-07-25 00:00:00.0',N'Centro comercial Moctezuma',N'Sierras de Granada 9993',N'México D.F.',N'05022',N'Mexico'),
 	 (N'OTTIK','1996-07-19 00:00:00.0','1996-07-29 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
@@ -23,7 +23,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BLONP','1996-07-25 00:00:00.0','1996-08-12 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'WARTH','1996-07-26 00:00:00.0','1996-07-31 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'FRANK','1996-07-29 00:00:00.0','1996-08-06 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GROSR','1996-07-30 00:00:00.0','1996-08-02 00:00:00.0',N'GROSELLA-Restaurante',N'5ª Ave. Los Palos Grandes',N'Caracas',N'1081',N'Venezuela'),
 	 (N'WHITC','1996-07-31 00:00:00.0','1996-08-09 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
 	 (N'WARTH','1996-08-01 00:00:00.0','1996-08-02 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
@@ -34,7 +34,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MAGAA','1996-08-07 00:00:00.0','1996-08-09 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
 	 (N'TORTU','1996-08-08 00:00:00.0','1996-08-14 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'MORGK','1996-08-09 00:00:00.0','1996-08-13 00:00:00.0',N'Morgenstern Gesundkost',N'Heerstr. 22',N'Leipzig',N'04179',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BERGS','1996-08-12 00:00:00.0','1996-08-16 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'LEHMS','1996-08-13 00:00:00.0','1996-08-16 00:00:00.0',N'Lehmanns Marktstand',N'Magazinweg 7',N'Frankfurt a.M.',N'60528',N'Germany'),
 	 (N'BERGS','1996-08-14 00:00:00.0','1996-09-12 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
@@ -45,7 +45,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1996-08-20 00:00:00.0','1996-08-26 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'QUICK','1996-08-21 00:00:00.0','1996-08-30 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'RICAR','1996-08-22 00:00:00.0','1996-08-28 00:00:00.0',N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'REGGC','1996-08-23 00:00:00.0','1996-09-03 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
 	 (N'BSBEV','1996-08-26 00:00:00.0','1996-08-28 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK'),
 	 (N'COMMI','1996-08-27 00:00:00.0','1996-09-03 00:00:00.0',N'Comércio Mineiro',N'Av. dos Lusíadas, 23',N'Sao Paulo',N'05432-043',N'Brazil'),
@@ -56,7 +56,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'VINET','1996-09-02 00:00:00.0','1996-09-10 00:00:00.0',N'Vins et alcools Chevalier',N'59 rue de l''Abbaye',N'Reims',N'51100',N'France'),
 	 (N'LILAS','1996-09-03 00:00:00.0','1996-09-11 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
 	 (N'BLONP','1996-09-04 00:00:00.0','1996-09-10 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'HUNGO','1996-09-05 00:00:00.0','1996-09-11 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'RICAR','1996-09-06 00:00:00.0','1996-09-13 00:00:00.0',N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil'),
 	 (N'MAGAA','1996-09-09 00:00:00.0','1996-09-18 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
@@ -67,7 +67,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'OLDWO','1996-09-13 00:00:00.0','1996-10-09 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'ROMEY','1996-09-16 00:00:00.0','1996-09-23 00:00:00.0',N'Romero y tomillo',N'Gran Vía, 1',N'Madrid',N'28001',N'Spain'),
 	 (N'LONEP','1996-09-17 00:00:00.0','1996-09-25 00:00:00.0',N'Lonesome Pine Restaurant',N'89 Chiaroscuro Rd.',N'Portland',N'97219',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ANATR','1996-09-18 00:00:00.0','1996-09-24 00:00:00.0',N'Ana Trujillo Emparedados y helados',N'Avda. de la Constitución 2222',N'México D.F.',N'05021',N'Mexico'),
 	 (N'HUNGO','1996-09-19 00:00:00.0','1996-10-23 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'THEBI','1996-09-20 00:00:00.0','1996-09-27 00:00:00.0',N'The Big Cheese',N'89 Jefferson Way Suite 2',N'Portland',N'97201',N'USA'),
@@ -78,7 +78,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ISLAT','1996-09-26 00:00:00.0','1996-10-03 00:00:00.0',N'Island Trading',N'Garden House Crowther Way',N'Cowes',N'PO31 7PJ',N'UK'),
 	 (N'RATTC','1996-09-27 00:00:00.0','1996-10-08 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'LONEP','1996-09-30 00:00:00.0','1996-10-10 00:00:00.0',N'Lonesome Pine Restaurant',N'89 Chiaroscuro Rd.',N'Portland',N'97219',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ISLAT','1996-10-01 00:00:00.0','1996-10-04 00:00:00.0',N'Island Trading',N'Garden House Crowther Way',N'Cowes',N'PO31 7PJ',N'UK'),
 	 (N'TORTU','1996-10-02 00:00:00.0','1996-10-11 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'WARTH','1996-10-03 00:00:00.0','1996-10-18 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
@@ -89,7 +89,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'KOENE','1996-10-09 00:00:00.0','1996-10-14 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'BOLID','1996-10-10 00:00:00.0','1996-10-14 00:00:00.0',N'Bólido Comidas preparadas',N'C/ Araquil, 67',N'Madrid',N'28023',N'Spain'),
 	 (N'FOLKO','1996-10-11 00:00:00.0','1996-10-14 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'FURIB','1996-10-14 00:00:00.0','1996-10-17 00:00:00.0',N'Furia Bacalhau e Frutos do Mar',N'Jardim das rosas n. 32',N'Lisboa',N'1675',N'Portugal'),
 	 (N'SPLIR','1996-10-15 00:00:00.0','1996-10-23 00:00:00.0',N'Split Rail Beer & Ale',N'P.O. Box 555',N'Lander',N'82520',N'USA'),
 	 (N'LILAS','1996-10-16 00:00:00.0','1996-10-28 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
@@ -100,7 +100,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HUNGO','1996-10-22 00:00:00.0','1996-10-24 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'PRINI','1996-10-23 00:00:00.0','1996-10-25 00:00:00.0',N'Princesa Isabel Vinhos',N'Estrada da saúde n. 58',N'Lisboa',N'1756',N'Portugal'),
 	 (N'FRANK','1996-10-24 00:00:00.0','1996-10-29 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'OLDWO','1996-10-25 00:00:00.0','1996-10-29 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'MEREP','1996-10-28 00:00:00.0','1996-11-04 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'BONAP','1996-10-29 00:00:00.0','1996-11-08 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
@@ -111,7 +111,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1996-11-04 00:00:00.0','1996-11-11 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'RATTC','1996-11-05 00:00:00.0','1996-11-08 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'FAMIA','1996-11-06 00:00:00.0','1996-11-08 00:00:00.0',N'Familia Arquibaldo',N'Rua Orós, 92',N'Sao Paulo',N'05442-030',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'WANDK','1996-11-07 00:00:00.0','1996-11-15 00:00:00.0',N'Die Wandernde Kuh',N'Adenauerallee 900',N'Stuttgart',N'70563',N'Germany'),
 	 (N'SPLIR','1996-11-08 00:00:00.0','1996-11-15 00:00:00.0',N'Split Rail Beer & Ale',N'P.O. Box 555',N'Lander',N'82520',N'USA'),
 	 (N'LAMAI','1996-11-11 00:00:00.0','1996-12-03 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France'),
@@ -122,7 +122,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'AROUT','1996-11-15 00:00:00.0','1996-11-20 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK'),
 	 (N'WANDK','1996-11-18 00:00:00.0','1996-11-27 00:00:00.0',N'Die Wandernde Kuh',N'Adenauerallee 900',N'Stuttgart',N'70563',N'Germany'),
 	 (N'LILAS','1996-11-19 00:00:00.0','1996-12-02 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'LAMAI','1996-11-20 00:00:00.0','1996-11-27 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France'),
 	 (N'SEVES','1996-11-21 00:00:00.0','1996-11-26 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK'),
 	 (N'BLONP','1996-11-22 00:00:00.0','1996-12-02 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
@@ -133,7 +133,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ANTON','1996-11-27 00:00:00.0','1996-12-02 00:00:00.0',N'Antonio Moreno Taquería',N'Mataderos  2312',N'México D.F.',N'05023',N'Mexico'),
 	 (N'GALED','1996-11-28 00:00:00.0','1996-12-30 00:00:00.0',N'Galería del gastronómo',N'Rambla de Cataluña, 23',N'Barcelona',N'8022',N'Spain'),
 	 (N'VAFFE','1996-11-28 00:00:00.0','1996-12-02 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ERNSH','1996-11-29 00:00:00.0','1996-12-02 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'SPLIR','1996-12-02 00:00:00.0','1996-12-09 00:00:00.0',N'Split Rail Beer & Ale',N'P.O. Box 555',N'Lander',N'82520',N'USA'),
 	 (N'CHOPS','1996-12-03 00:00:00.0','1996-12-27 00:00:00.0',N'Chop-suey Chinese',N'Hauptstr. 31',N'Bern',N'3012',N'Switzerland'),
@@ -144,7 +144,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HUNGC','1996-12-06 00:00:00.0','1996-12-09 00:00:00.0',N'Hungry Coyote Import Store',N'City Center Plaza 516 Main St.',N'Elgin',N'97827',N'USA'),
 	 (N'MEREP','1996-12-09 00:00:00.0','1996-12-13 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'SEVES','1996-12-09 00:00:00.0','1996-12-13 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'FOLKO','1996-12-10 00:00:00.0','1996-12-19 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
 	 (N'QUEDE','1996-12-11 00:00:00.0','1996-12-13 00:00:00.0',N'Que Delícia',N'Rua da Panificadora, 12',N'Rio de Janeiro',N'02389-673',N'Brazil'),
 	 (N'HUNGO','1996-12-12 00:00:00.0','1997-01-16 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
@@ -155,7 +155,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SPLIR','1996-12-17 00:00:00.0','1996-12-23 00:00:00.0',N'Split Rail Beer & Ale',N'P.O. Box 555',N'Lander',N'82520',N'USA'),
 	 (N'FAMIA','1996-12-18 00:00:00.0','1996-12-25 00:00:00.0',N'Familia Arquibaldo',N'Rua Orós, 92',N'Sao Paulo',N'05442-030',N'Brazil'),
 	 (N'SANTG','1996-12-18 00:00:00.0','1996-12-20 00:00:00.0',N'Santé Gourmet',N'Erling Skakkes gate 78',N'Stavern',N'4110',N'Norway');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SEVES','1996-12-19 00:00:00.0','1996-12-20 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK'),
 	 (N'BOTTM','1996-12-20 00:00:00.0','1996-12-24 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'ERNSH','1996-12-23 00:00:00.0','1996-12-26 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
@@ -166,7 +166,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HILAA','1996-12-26 00:00:00.0','1997-01-03 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'FRANK','1996-12-27 00:00:00.0','1997-01-06 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
 	 (N'PRINI','1996-12-27 00:00:00.0','1997-01-02 00:00:00.0',N'Princesa Isabel Vinhos',N'Estrada da saúde n. 58',N'Lisboa',N'1756',N'Portugal');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SAVEA','1996-12-30 00:00:00.0','1997-01-09 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
 	 (N'VAFFE','1996-12-31 00:00:00.0','1997-01-08 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark'),
 	 (N'EASTC','1997-01-01 00:00:00.0','1997-01-16 00:00:00.0',N'Eastern Connection',N'35 King George',N'London',N'WX3 6FW',N'UK'),
@@ -177,7 +177,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LINOD','1997-01-06 00:00:00.0','1997-01-22 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'QUEEN','1997-01-07 00:00:00.0','1997-01-13 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'OTTIK','1997-01-07 00:00:00.0','1997-01-30 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'FOLIG','1997-01-08 00:00:00.0','1997-01-14 00:00:00.0',N'Folies gourmandes',N'184, chaussée de Tournai',N'Lille',N'59000',N'France'),
 	 (N'OCEAN','1997-01-09 00:00:00.0','1997-01-14 00:00:00.0',N'Océano Atlántico Ltda.',N'Ing. Gustavo Moncada 8585 Piso 20-A',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'BOTTM','1997-01-10 00:00:00.0','1997-01-15 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
@@ -188,7 +188,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HUNGC','1997-01-15 00:00:00.0','1997-01-24 00:00:00.0',N'Hungry Coyote Import Store',N'City Center Plaza 516 Main St.',N'Elgin',N'97827',N'USA'),
 	 (N'WARTH','1997-01-16 00:00:00.0','1997-01-27 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'SIMOB','1997-01-16 00:00:00.0','1997-01-28 00:00:00.0',N'Simons bistro',N'Vinbæltet 34',N'Kobenhavn',N'1734',N'Denmark');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1997-01-17 00:00:00.0','1997-01-24 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'RICSU','1997-01-20 00:00:00.0','1997-01-30 00:00:00.0',N'Richter Supermarkt',N'Starenweg 5',N'Genève',N'1204',N'Switzerland'),
 	 (N'WELLI','1997-01-21 00:00:00.0','1997-01-27 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
@@ -199,7 +199,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LAMAI','1997-01-24 00:00:00.0','1997-02-14 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France'),
 	 (N'GALED','1997-01-27 00:00:00.0','1997-02-06 00:00:00.0',N'Galería del gastronómo',N'Rambla de Cataluña, 23',N'Barcelona',N'8022',N'Spain'),
 	 (N'PICCO','1997-01-27 00:00:00.0','1997-03-03 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'REGGC','1997-01-28 00:00:00.0','1997-02-04 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
 	 (N'HUNGO','1997-01-29 00:00:00.0','1997-02-07 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'ERNSH','1997-01-30 00:00:00.0','1997-02-03 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
@@ -210,7 +210,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'CONSH','1997-02-04 00:00:00.0','1997-02-07 00:00:00.0',N'Consolidated Holdings',N'Berkeley Gardens 12  Brewery',N'London',N'WX1 6LT',N'UK'),
 	 (N'BLONP','1997-02-05 00:00:00.0','1997-02-11 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'WARTH','1997-02-05 00:00:00.0','1997-02-12 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'TOMSP','1997-02-06 00:00:00.0','1997-02-14 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany'),
 	 (N'MEREP','1997-02-07 00:00:00.0','1997-02-10 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'SAVEA','1997-02-10 00:00:00.0','1997-02-28 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
@@ -221,7 +221,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BERGS','1997-02-13 00:00:00.0','1997-02-20 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'TOMSP','1997-02-14 00:00:00.0','1997-02-19 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany'),
 	 (N'RICAR','1997-02-14 00:00:00.0','1997-03-07 00:00:00.0',N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RANCH','1997-02-17 00:00:00.0','1997-02-24 00:00:00.0',N'Rancho grande',N'Av. del Libertador 900',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'BLONP','1997-02-18 00:00:00.0','1997-02-27 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'VICTE','1997-02-19 00:00:00.0','1997-03-11 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
@@ -232,7 +232,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WARTH','1997-02-24 00:00:00.0','1997-03-03 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'KOENE','1997-02-25 00:00:00.0','1997-02-28 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'KOENE','1997-02-25 00:00:00.0','1997-03-03 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SUPRD','1997-02-26 00:00:00.0','1997-03-04 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'VICTE','1997-02-27 00:00:00.0','1997-02-28 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
 	 (N'FOLKO','1997-02-28 00:00:00.0','1997-03-03 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
@@ -243,7 +243,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'VAFFE','1997-03-05 00:00:00.0','1997-03-14 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark'),
 	 (N'COMMI','1997-03-06 00:00:00.0','1997-03-13 00:00:00.0',N'Comércio Mineiro',N'Av. dos Lusíadas, 23',N'Sao Paulo',N'05432-043',N'Brazil'),
 	 (N'MAGAA','1997-03-06 00:00:00.0','1997-03-11 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'KOENE','1997-03-07 00:00:00.0','1997-03-12 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'WHITC','1997-03-10 00:00:00.0','1997-03-14 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
 	 (N'BONAP','1997-03-11 00:00:00.0','1997-03-14 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
@@ -254,7 +254,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SUPRD','1997-03-14 00:00:00.0','1997-04-04 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'HILAA','1997-03-17 00:00:00.0','1997-03-24 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'PRINI','1997-03-17 00:00:00.0','1997-03-25 00:00:00.0',N'Princesa Isabel Vinhos',N'Estrada da saúde n. 58',N'Lisboa',N'1756',N'Portugal');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'VICTE','1997-03-18 00:00:00.0','1997-03-26 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
 	 (N'RATTC','1997-03-19 00:00:00.0','1997-03-21 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'FOLIG','1997-03-20 00:00:00.0','1997-03-24 00:00:00.0',N'Folies gourmandes',N'184, chaussée de Tournai',N'Lille',N'59000',N'France'),
@@ -265,7 +265,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LINOD','1997-03-25 00:00:00.0','1997-03-31 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'HILAA','1997-03-26 00:00:00.0','1997-04-02 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'QUEEN','1997-03-26 00:00:00.0','1997-03-28 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'FRANK','1997-03-27 00:00:00.0','1997-04-02 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
 	 (N'PICCO','1997-03-28 00:00:00.0','1997-04-09 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria'),
 	 (N'HILAA','1997-03-31 00:00:00.0','1997-04-03 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
@@ -276,7 +276,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LAUGB','1997-04-03 00:00:00.0','1997-04-11 00:00:00.0',N'Laughing Bacchus Wine Cellars',N'2319 Elm St.',N'Vancouver',N'V3F 2K1',N'Canada'),
 	 (N'TRADH','1997-04-04 00:00:00.0','1997-04-07 00:00:00.0',N'Tradiçao Hipermercados',N'Av. Inês de Castro, 414',N'Sao Paulo',N'05634-030',N'Brazil'),
 	 (N'LEHMS','1997-04-04 00:00:00.0','1997-04-07 00:00:00.0',N'Lehmanns Marktstand',N'Magazinweg 7',N'Frankfurt a.M.',N'60528',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'HILAA','1997-04-07 00:00:00.0','1997-04-11 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'LILAS','1997-04-08 00:00:00.0','1997-04-16 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
 	 (N'LAMAI','1997-04-09 00:00:00.0','1997-04-17 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France'),
@@ -287,7 +287,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MEREP','1997-04-14 00:00:00.0','1997-04-21 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'KOENE','1997-04-15 00:00:00.0','1997-05-02 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'ANTON','1997-04-15 00:00:00.0','1997-04-22 00:00:00.0',N'Antonio Moreno Taquería',N'Mataderos  2312',N'México D.F.',N'05023',N'Mexico');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'OTTIK','1997-04-16 00:00:00.0','1997-05-13 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
 	 (N'BLAUS','1997-04-17 00:00:00.0','1997-04-29 00:00:00.0',N'Blauer See Delikatessen',N'Forsterstr. 57',N'Mannheim',N'68306',N'Germany'),
 	 (N'SAVEA','1997-04-18 00:00:00.0','1997-04-28 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
@@ -298,7 +298,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1997-04-23 00:00:00.0','1997-05-23 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'HUNGO','1997-04-24 00:00:00.0','1997-05-01 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'NORTS','1997-04-24 00:00:00.0','1997-04-29 00:00:00.0',N'North/South',N'South House 300 Queensbridge',N'London',N'SW7 1RZ',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'TORTU','1997-04-25 00:00:00.0','1997-05-05 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'CHOPS','1997-04-28 00:00:00.0','1997-05-01 00:00:00.0',N'Chop-suey Chinese',N'Hauptstr. 31',N'Bern',N'3012',N'Switzerland'),
 	 (N'SANTG','1997-04-29 00:00:00.0','1997-05-01 00:00:00.0',N'Santé Gourmet',N'Erling Skakkes gate 78',N'Stavern',N'4110',N'Norway'),
@@ -309,7 +309,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BONAP','1997-05-02 00:00:00.0','1997-05-23 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
 	 (N'WARTH','1997-05-05 00:00:00.0','1997-05-15 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'QUICK','1997-05-05 00:00:00.0','1997-05-07 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GREAL','1997-05-06 00:00:00.0','1997-05-09 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'MAISD','1997-05-07 00:00:00.0','1997-05-09 00:00:00.0',N'Maison Dewey',N'Rue Joseph-Bens 532',N'Bruxelles',N'B-1180',N'Belgium'),
 	 (N'PICCO','1997-05-08 00:00:00.0','1997-05-12 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria'),
@@ -320,7 +320,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ANTON','1997-05-13 00:00:00.0','1997-05-21 00:00:00.0',N'Antonio Moreno Taquería',N'Mataderos  2312',N'México D.F.',N'05023',N'Mexico'),
 	 (N'LEHMS','1997-05-14 00:00:00.0','1997-06-06 00:00:00.0',N'Lehmanns Marktstand',N'Magazinweg 7',N'Frankfurt a.M.',N'60528',N'Germany'),
 	 (N'RICSU','1997-05-14 00:00:00.0','1997-05-19 00:00:00.0',N'Richter Supermarkt',N'Starenweg 5',N'Genève',N'1204',N'Switzerland');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BSBEV','1997-05-15 00:00:00.0','1997-05-16 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK'),
 	 (N'BSBEV','1997-05-16 00:00:00.0','1997-05-23 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK'),
 	 (N'QUICK','1997-05-19 00:00:00.0','1997-06-13 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
@@ -331,7 +331,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LAZYK','1997-05-22 00:00:00.0','1997-06-26 00:00:00.0',N'Lazy K Kountry Store',N'12 Orchestra Terrace',N'Walla Walla',N'99362',N'USA'),
 	 (N'VICTE','1997-05-23 00:00:00.0','1997-05-27 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
 	 (N'SEVES','1997-05-23 00:00:00.0','1997-06-02 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'TOMSP','1997-05-26 00:00:00.0','1997-06-02 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany'),
 	 (N'QUICK','1997-05-27 00:00:00.0','1997-05-30 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'GODOS','1997-05-28 00:00:00.0','1997-06-06 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain'),
@@ -342,7 +342,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SAVEA','1997-06-02 00:00:00.0','1997-06-04 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
 	 (N'SIMOB','1997-06-03 00:00:00.0','1997-06-13 00:00:00.0',N'Simons bistro',N'Vinbæltet 34',N'Kobenhavn',N'1734',N'Denmark'),
 	 (N'LEHMS','1997-06-03 00:00:00.0','1997-06-06 00:00:00.0',N'Lehmanns Marktstand',N'Magazinweg 7',N'Frankfurt a.M.',N'60528',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'AROUT','1997-06-04 00:00:00.0','1997-06-10 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK'),
 	 (N'BLONP','1997-06-05 00:00:00.0','1997-06-13 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'FRANK','1997-06-06 00:00:00.0','1997-06-09 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
@@ -353,7 +353,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MEREP','1997-06-11 00:00:00.0','1997-06-18 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'BLONP','1997-06-12 00:00:00.0','1997-06-18 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'HUNGO','1997-06-12 00:00:00.0','1997-06-17 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GALED','1997-06-13 00:00:00.0','1997-07-09 00:00:00.0',N'Galería del gastronómo',N'Rambla de Cataluña, 23',N'Barcelona',N'8022',N'Spain'),
 	 (N'RATTC','1997-06-16 00:00:00.0','1997-07-11 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'MEREP','1997-06-17 00:00:00.0','1997-06-19 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
@@ -364,7 +364,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MORGK','1997-06-20 00:00:00.0','1997-06-30 00:00:00.0',N'Morgenstern Gesundkost',N'Heerstr. 22',N'Leipzig',N'04179',N'Germany'),
 	 (N'TORTU','1997-06-23 00:00:00.0','1997-06-30 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'TRAIH','1997-06-23 00:00:00.0','1997-06-30 00:00:00.0',N'Trail''s Head Gourmet Provisioners',N'722 DaVinci Blvd.',N'Kirkland',N'98034',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BSBEV','1997-06-24 00:00:00.0','1997-07-25 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK'),
 	 (N'LETSS','1997-06-25 00:00:00.0','1997-07-04 00:00:00.0',N'Let''s Stop N Shop',N'87 Polk St. Suite 5',N'San Francisco',N'94117',N'USA'),
 	 (N'OTTIK','1997-06-26 00:00:00.0','1997-07-01 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
@@ -375,7 +375,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WELLI','1997-07-01 00:00:00.0','1997-07-10 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
 	 (N'REGGC','1997-07-02 00:00:00.0','1997-07-09 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
 	 (N'QUEDE','1997-07-02 00:00:00.0','1997-07-09 00:00:00.0',N'Que Delícia',N'Rua da Panificadora, 12',N'Rio de Janeiro',N'02389-673',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1997-07-03 00:00:00.0','1997-07-10 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'GREAL','1997-07-04 00:00:00.0','1997-07-14 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'MEREP','1997-07-07 00:00:00.0','1997-07-14 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
@@ -386,7 +386,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ERNSH','1997-07-10 00:00:00.0','1997-07-14 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'WHITC','1997-07-11 00:00:00.0','1997-08-12 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
 	 (N'PICCO','1997-07-11 00:00:00.0','1997-07-18 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RATTC','1997-07-14 00:00:00.0','1997-07-18 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'BSBEV','1997-07-15 00:00:00.0','1997-07-21 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK'),
 	 (N'HUNGC','1997-07-16 00:00:00.0','1997-07-21 00:00:00.0',N'Hungry Coyote Import Store',N'City Center Plaza 516 Main St.',N'Elgin',N'97827',N'USA'),
@@ -397,7 +397,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MEREP','1997-07-21 00:00:00.0','1997-07-29 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'TRADH','1997-07-22 00:00:00.0','1997-07-31 00:00:00.0',N'Tradiçao Hipermercados',N'Av. Inês de Castro, 414',N'Sao Paulo',N'05634-030',N'Brazil'),
 	 (N'SAVEA','1997-07-22 00:00:00.0','1997-07-25 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'TOMSP','1997-07-23 00:00:00.0','1997-08-01 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany'),
 	 (N'DUMON','1997-07-24 00:00:00.0','1997-07-30 00:00:00.0',N'Du monde entier',N'67, rue des Cinquante Otages',N'Nantes',N'44000',N'France'),
 	 (N'LAMAI','1997-07-25 00:00:00.0','1997-08-06 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France'),
@@ -408,7 +408,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WILMK','1997-07-30 00:00:00.0','1997-08-06 00:00:00.0',N'Wilman Kala',N'Keskuskatu 45',N'Helsinki',N'21240',N'Finland'),
 	 (N'GREAL','1997-07-31 00:00:00.0','1997-08-05 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'GREAL','1997-07-31 00:00:00.0','1997-08-04 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'MEREP','1997-08-01 00:00:00.0','1997-08-08 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'MEREP','1997-08-04 00:00:00.0','1997-08-07 00:00:00.0',N'Mère Paillarde',N'43 rue St. Laurent',N'Montréal',N'H1J 1C3',N'Canada'),
 	 (N'LAUGB','1997-08-05 00:00:00.0','1997-08-14 00:00:00.0',N'Laughing Bacchus Wine Cellars',N'2319 Elm St.',N'Vancouver',N'V3F 2K1',N'Canada'),
@@ -419,7 +419,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ANATR','1997-08-08 00:00:00.0','1997-08-14 00:00:00.0',N'Ana Trujillo Emparedados y helados',N'Avda. de la Constitución 2222',N'México D.F.',N'05021',N'Mexico'),
 	 (N'BERGS','1997-08-11 00:00:00.0','1997-08-20 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'SAVEA','1997-08-11 00:00:00.0','1997-08-21 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BLONP','1997-08-12 00:00:00.0','1997-08-20 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'GODOS','1997-08-12 00:00:00.0','1997-08-20 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain'),
 	 (N'KOENE','1997-08-13 00:00:00.0','1997-08-19 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
@@ -430,7 +430,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MAGAA','1997-08-18 00:00:00.0','1997-08-21 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
 	 (N'WARTH','1997-08-19 00:00:00.0','1997-08-26 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'QUEEN','1997-08-19 00:00:00.0','1997-08-26 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'LINOD','1997-08-20 00:00:00.0','1997-09-01 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'SANTG','1997-08-20 00:00:00.0','1997-08-27 00:00:00.0',N'Santé Gourmet',N'Erling Skakkes gate 78',N'Stavern',N'4110',N'Norway'),
 	 (N'WANDK','1997-08-21 00:00:00.0','1997-08-28 00:00:00.0',N'Die Wandernde Kuh',N'Adenauerallee 900',N'Stuttgart',N'70563',N'Germany'),
@@ -441,7 +441,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HANAR','1997-08-26 00:00:00.0','1997-09-02 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
 	 (N'HUNGO','1997-08-27 00:00:00.0','1997-09-03 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'QUEDE','1997-08-27 00:00:00.0','1997-09-03 00:00:00.0',N'Que Delícia',N'Rua da Panificadora, 12',N'Rio de Janeiro',N'02389-673',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RICAR','1997-08-28 00:00:00.0','1997-09-09 00:00:00.0',N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil'),
 	 (N'MAISD','1997-08-28 00:00:00.0','1997-08-29 00:00:00.0',N'Maison Dewey',N'Rue Joseph-Bens 532',N'Bruxelles',N'B-1180',N'Belgium'),
 	 (N'FAMIA','1997-08-29 00:00:00.0','1997-09-03 00:00:00.0',N'Familia Arquibaldo',N'Rua Orós, 92',N'Sao Paulo',N'05442-030',N'Brazil'),
@@ -452,7 +452,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'REGGC','1997-09-03 00:00:00.0','1997-09-11 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
 	 (N'GREAL','1997-09-04 00:00:00.0','1997-09-10 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'SAVEA','1997-09-04 00:00:00.0','1997-09-15 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1997-09-05 00:00:00.0','1997-09-08 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'QUEEN','1997-09-05 00:00:00.0','1997-09-10 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'HUNGC','1997-09-08 00:00:00.0','1997-10-15 00:00:00.0',N'Hungry Coyote Import Store',N'City Center Plaza 516 Main St.',N'Elgin',N'97827',N'USA'),
@@ -463,7 +463,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LONEP','1997-09-11 00:00:00.0','1997-09-17 00:00:00.0',N'Lonesome Pine Restaurant',N'89 Chiaroscuro Rd.',N'Portland',N'97219',N'USA'),
 	 (N'RICSU','1997-09-12 00:00:00.0','1997-09-22 00:00:00.0',N'Richter Supermarkt',N'Starenweg 5',N'Genève',N'1204',N'Switzerland'),
 	 (N'ERNSH','1997-09-12 00:00:00.0','1997-09-19 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'WANDK','1997-09-15 00:00:00.0','1997-09-23 00:00:00.0',N'Die Wandernde Kuh',N'Adenauerallee 900',N'Stuttgart',N'70563',N'Germany'),
 	 (N'SIMOB','1997-09-15 00:00:00.0','1997-09-22 00:00:00.0',N'Simons bistro',N'Vinbæltet 34',N'Kobenhavn',N'1734',N'Denmark'),
 	 (N'FRANK','1997-09-16 00:00:00.0','1997-09-18 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
@@ -474,7 +474,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'FRANK','1997-09-19 00:00:00.0','1997-09-23 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
 	 (N'TORTU','1997-09-22 00:00:00.0','1997-09-29 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'ANTON','1997-09-22 00:00:00.0','1997-09-26 00:00:00.0',N'Antonio Moreno Taquería',N'Mataderos  2312',N'México D.F.',N'05023',N'Mexico');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SAVEA','1997-09-23 00:00:00.0','1997-10-16 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
 	 (N'BLONP','1997-09-23 00:00:00.0','1997-09-30 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'OLDWO','1997-09-24 00:00:00.0','1997-09-26 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
@@ -485,7 +485,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'GOURL','1997-09-29 00:00:00.0','1997-10-03 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil'),
 	 (N'PICCO','1997-09-30 00:00:00.0','1997-10-08 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria'),
 	 (N'HUNGO','1997-09-30 00:00:00.0','1997-10-30 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'VAFFE','1997-10-01 00:00:00.0','1997-10-07 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark'),
 	 (N'BERGS','1997-10-01 00:00:00.0','1997-10-07 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'HANAR','1997-10-02 00:00:00.0','1997-10-03 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
@@ -496,7 +496,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WILMK','1997-10-07 00:00:00.0','1997-10-14 00:00:00.0',N'Wilman Kala',N'Keskuskatu 45',N'Helsinki',N'21240',N'Finland'),
 	 (N'WHITC','1997-10-08 00:00:00.0','1997-10-14 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
 	 (N'LINOD','1997-10-08 00:00:00.0','1997-10-14 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ERNSH','1997-10-09 00:00:00.0','1997-10-17 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'MORGK','1997-10-09 00:00:00.0','1997-10-13 00:00:00.0',N'Morgenstern Gesundkost',N'Heerstr. 22',N'Leipzig',N'04179',N'Germany'),
 	 (N'SAVEA','1997-10-10 00:00:00.0','1997-10-16 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
@@ -507,7 +507,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HILAA','1997-10-15 00:00:00.0','1997-11-18 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'OLDWO','1997-10-16 00:00:00.0','1997-10-21 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'AROUT','1997-10-16 00:00:00.0','1997-10-23 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'THEBI','1997-10-17 00:00:00.0','1997-11-05 00:00:00.0',N'The Big Cheese',N'89 Jefferson Way Suite 2',N'Portland',N'97201',N'USA'),
 	 (N'GOURL','1997-10-17 00:00:00.0','1997-11-20 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil'),
 	 (N'FRANS','1997-10-20 00:00:00.0','1997-10-23 00:00:00.0',N'Franchi S.p.A.',N'Via Monte Bianco 34',N'Torino',N'10100',N'Italy'),
@@ -518,7 +518,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BONAP','1997-10-23 00:00:00.0','1997-10-29 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
 	 (N'RANCH','1997-10-24 00:00:00.0','1997-10-27 00:00:00.0',N'Rancho grande',N'Av. del Libertador 900',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'FRANK','1997-10-24 00:00:00.0','1997-10-29 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'KOENE','1997-10-27 00:00:00.0','1997-10-29 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'LETSS','1997-10-27 00:00:00.0','1997-11-05 00:00:00.0',N'Let''s Stop N Shop',N'87 Polk St. Suite 5',N'San Francisco',N'94117',N'USA'),
 	 (N'QUEDE','1997-10-28 00:00:00.0','1997-11-05 00:00:00.0',N'Que Delícia',N'Rua da Panificadora, 12',N'Rio de Janeiro',N'02389-673',N'Brazil'),
@@ -529,7 +529,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'FAMIA','1997-10-31 00:00:00.0','1997-11-05 00:00:00.0',N'Familia Arquibaldo',N'Rua Orós, 92',N'Sao Paulo',N'05442-030',N'Brazil'),
 	 (N'EASTC','1997-11-03 00:00:00.0','1997-12-05 00:00:00.0',N'Eastern Connection',N'35 King George',N'London',N'WX3 6FW',N'UK'),
 	 (N'REGGC','1997-11-03 00:00:00.0','1997-12-05 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUEEN','1997-11-04 00:00:00.0','1997-11-11 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'LINOD','1997-11-04 00:00:00.0','1997-11-14 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'BONAP','1997-11-05 00:00:00.0','1997-11-14 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
@@ -540,7 +540,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LETSS','1997-11-10 00:00:00.0','1997-11-21 00:00:00.0',N'Let''s Stop N Shop',N'87 Polk St. Suite 5',N'San Francisco',N'94117',N'USA'),
 	 (N'HUNGO','1997-11-11 00:00:00.0','1997-11-21 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'VINET','1997-11-11 00:00:00.0','1997-11-18 00:00:00.0',N'Vins et alcools Chevalier',N'59 rue de l''Abbaye',N'Reims',N'51100',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SPECD','1997-11-12 00:00:00.0','1997-11-18 00:00:00.0',N'Spécialités du monde',N'25, rue Lauriston',N'Paris',N'75016',N'France'),
 	 (N'VINET','1997-11-12 00:00:00.0','1997-11-17 00:00:00.0',N'Vins et alcools Chevalier',N'59 rue de l''Abbaye',N'Reims',N'51100',N'France'),
 	 (N'WHITC','1997-11-13 00:00:00.0','1997-11-25 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
@@ -551,7 +551,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1997-11-18 00:00:00.0','1997-11-27 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'CHOPS','1997-11-19 00:00:00.0','1997-11-21 00:00:00.0',N'Chop-suey Chinese',N'Hauptstr. 31',N'Bern',N'3012',N'Switzerland'),
 	 (N'PICCO','1997-11-19 00:00:00.0','1997-11-26 00:00:00.0',N'Piccolo und mehr',N'Geislweg 14',N'Salzburg',N'5020',N'Austria');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SAVEA','1997-11-20 00:00:00.0','1997-11-28 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
 	 (N'ISLAT','1997-11-20 00:00:00.0','1997-12-19 00:00:00.0',N'Island Trading',N'Garden House Crowther Way',N'Cowes',N'PO31 7PJ',N'UK'),
 	 (N'WARTH','1997-11-21 00:00:00.0','1997-11-24 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
@@ -562,7 +562,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BONAP','1997-11-26 00:00:00.0','1997-11-28 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
 	 (N'SPLIR','1997-11-27 00:00:00.0','1997-12-02 00:00:00.0',N'Split Rail Beer & Ale',N'P.O. Box 555',N'Lander',N'82520',N'USA'),
 	 (N'SAVEA','1997-11-27 00:00:00.0','1997-12-15 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RICSU','1997-11-28 00:00:00.0','1997-12-04 00:00:00.0',N'Richter Supermarkt',N'Starenweg 5',N'Genève',N'1204',N'Switzerland'),
 	 (N'ANATR','1997-11-28 00:00:00.0','1997-12-12 00:00:00.0',N'Ana Trujillo Emparedados y helados',N'Avda. de la Constitución 2222',N'México D.F.',N'05021',N'Mexico'),
 	 (N'MAISD','1997-12-01 00:00:00.0','1997-12-10 00:00:00.0',N'Maison Dewey',N'Rue Joseph-Bens 532',N'Bruxelles',N'B-1180',N'Belgium'),
@@ -573,7 +573,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1997-12-04 00:00:00.0','1997-12-09 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'OTTIK','1997-12-05 00:00:00.0','1997-12-09 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
 	 (N'SUPRD','1997-12-05 00:00:00.0','1997-12-15 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'AROUT','1997-12-08 00:00:00.0','1997-12-15 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK'),
 	 (N'VAFFE','1997-12-08 00:00:00.0','1997-12-12 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark'),
 	 (N'HANAR','1997-12-09 00:00:00.0','1997-12-17 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
@@ -584,7 +584,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'THECR','1997-12-12 00:00:00.0','1997-12-26 00:00:00.0',N'The Cracker Box',N'55 Grizzly Peak Rd.',N'Butte',N'59801',N'USA'),
 	 (N'ERNSH','1997-12-15 00:00:00.0','1997-12-18 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'GOURL','1997-12-15 00:00:00.0','1998-01-21 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BERGS','1997-12-16 00:00:00.0','1997-12-24 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'MORGK','1997-12-16 00:00:00.0','1998-01-14 00:00:00.0',N'Morgenstern Gesundkost',N'Heerstr. 22',N'Leipzig',N'04179',N'Germany'),
 	 (N'LILAS','1997-12-16 00:00:00.0','1997-12-25 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
@@ -595,7 +595,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'GROSR','1997-12-18 00:00:00.0','1997-12-24 00:00:00.0',N'GROSELLA-Restaurante',N'5ª Ave. Los Palos Grandes',N'Caracas',N'1081',N'Venezuela'),
 	 (N'QUEEN','1997-12-19 00:00:00.0','1997-12-23 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'LAMAI','1997-12-19 00:00:00.0','1997-12-26 00:00:00.0',N'La maison d''Asie',N'1 rue Alsace-Lorraine',N'Toulouse',N'31000',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1997-12-22 00:00:00.0','1998-01-19 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'FOLIG','1997-12-22 00:00:00.0','1997-12-31 00:00:00.0',N'Folies gourmandes',N'184, chaussée de Tournai',N'Lille',N'59000',N'France'),
 	 (N'GOURL','1997-12-22 00:00:00.0','1997-12-26 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil'),
@@ -606,7 +606,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ERNSH','1997-12-24 00:00:00.0','1998-01-20 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'HILAA','1997-12-25 00:00:00.0','1998-01-14 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'DRACD','1997-12-25 00:00:00.0','1998-01-05 00:00:00.0',N'Drachenblut Delikatessen',N'Walserweg 21',N'Aachen',N'52066',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ISLAT','1997-12-26 00:00:00.0','1998-01-05 00:00:00.0',N'Island Trading',N'Garden House Crowther Way',N'Cowes',N'PO31 7PJ',N'UK'),
 	 (N'KOENE','1997-12-26 00:00:00.0','1998-01-05 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'SEVES','1997-12-26 00:00:00.0','1998-01-05 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK'),
@@ -617,7 +617,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'THEBI','1997-12-30 00:00:00.0','1998-01-09 00:00:00.0',N'The Big Cheese',N'89 Jefferson Way Suite 2',N'Portland',N'97201',N'USA'),
 	 (N'VICTE','1997-12-31 00:00:00.0','1998-01-05 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
 	 (N'FRANS','1997-12-31 00:00:00.0','1998-01-30 00:00:00.0',N'Franchi S.p.A.',N'Via Monte Bianco 34',N'Torino',N'10100',N'Italy');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'OLDWO','1998-01-01 00:00:00.0','1998-01-09 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'WELLI','1998-01-01 00:00:00.0','1998-01-07 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
 	 (N'LAUGB','1998-01-01 00:00:00.0','1998-01-07 00:00:00.0',N'Laughing Bacchus Wine Cellars',N'2319 Elm St.',N'Vancouver',N'V3F 2K1',N'Canada'),
@@ -628,7 +628,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SAVEA','1998-01-05 00:00:00.0','1998-01-14 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
 	 (N'GREAL','1998-01-06 00:00:00.0','1998-02-04 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'KOENE','1998-01-06 00:00:00.0','1998-01-13 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'MAGAA','1998-01-07 00:00:00.0','1998-01-12 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
 	 (N'CACTU','1998-01-07 00:00:00.0','1998-01-16 00:00:00.0',N'Cactus Comidas para llevar',N'Cerrito 333',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'RATTC','1998-01-07 00:00:00.0','1998-01-13 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
@@ -639,7 +639,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'DRACD','1998-01-09 00:00:00.0','1998-01-14 00:00:00.0',N'Drachenblut Delikatessen',N'Walserweg 21',N'Aachen',N'52066',N'Germany'),
 	 (N'BLONP','1998-01-12 00:00:00.0','1998-02-06 00:00:00.0',N'Blondel père et fils',N'24, place Kléber',N'Strasbourg',N'67000',N'France'),
 	 (N'BONAP','1998-01-12 00:00:00.0','1998-02-06 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RANCH','1998-01-13 00:00:00.0','1998-02-04 00:00:00.0',N'Rancho grande',N'Av. del Libertador 900',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'ISLAT','1998-01-13 00:00:00.0','1998-01-23 00:00:00.0',N'Island Trading',N'Garden House Crowther Way',N'Cowes',N'PO31 7PJ',N'UK'),
 	 (N'TRADH','1998-01-13 00:00:00.0','1998-01-21 00:00:00.0',N'Tradiçao Hipermercados',N'Av. Inês de Castro, 414',N'Sao Paulo',N'05634-030',N'Brazil'),
@@ -650,7 +650,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ALFKI','1998-01-15 00:00:00.0','1998-01-21 00:00:00.0',N'Alfred''s Futterkiste',N'Obere Str. 57',N'Berlin',N'12209',N'Germany'),
 	 (N'ERNSH','1998-01-16 00:00:00.0','1998-01-21 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'BERGS','1998-01-16 00:00:00.0','1998-01-23 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'LINOD','1998-01-19 00:00:00.0','1998-01-23 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'TRADH','1998-01-19 00:00:00.0','1998-01-22 00:00:00.0',N'Tradiçao Hipermercados',N'Av. Inês de Castro, 414',N'Sao Paulo',N'05634-030',N'Brazil'),
 	 (N'LINOD','1998-01-19 00:00:00.0','1998-02-16 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
@@ -661,7 +661,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1998-01-21 00:00:00.0','1998-01-30 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'SUPRD','1998-01-22 00:00:00.0','1998-01-23 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'SAVEA','1998-01-22 00:00:00.0','1998-02-10 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'CONSH','1998-01-23 00:00:00.0','1998-01-29 00:00:00.0',N'Consolidated Holdings',N'Berkeley Gardens 12  Brewery',N'London',N'WX1 6LT',N'UK'),
 	 (N'KOENE','1998-01-23 00:00:00.0','1998-01-30 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'VICTE','1998-01-23 00:00:00.0','1998-01-30 00:00:00.0',N'Victuailles en stock',N'2, rue du Commerce',N'Lyon',N'69004',N'France'),
@@ -672,7 +672,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'OLDWO','1998-01-27 00:00:00.0','1998-02-04 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'ANTON','1998-01-28 00:00:00.0','1998-02-10 00:00:00.0',N'Antonio Moreno Taquería',N'Mataderos  2312',N'México D.F.',N'05023',N'Mexico'),
 	 (N'BERGS','1998-01-28 00:00:00.0','1998-02-06 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'LACOR','1998-01-29 00:00:00.0','1998-02-03 00:00:00.0',N'La corne d''abondance',N'67, avenue de l''Europe',N'Versailles',N'78000',N'France'),
 	 (N'FRANK','1998-01-29 00:00:00.0','1998-02-02 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
 	 (N'FRANR','1998-01-29 00:00:00.0','1998-02-04 00:00:00.0',N'France restauration',N'54, rue Royale',N'Nantes',N'44000',N'France'),
@@ -683,7 +683,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'QUICK','1998-02-02 00:00:00.0','1998-02-12 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'BERGS','1998-02-03 00:00:00.0','1998-02-12 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'LONEP','1998-02-03 00:00:00.0','1998-02-11 00:00:00.0',N'Lonesome Pine Restaurant',N'89 Chiaroscuro Rd.',N'Portland',N'97219',N'USA');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUEEN','1998-02-04 00:00:00.0','1998-02-23 00:00:00.0',N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'SEVES','1998-02-04 00:00:00.0','1998-02-09 00:00:00.0',N'Seven Seas Imports',N'90 Wadhurst Rd.',N'London',N'OX15 4NB',N'UK'),
 	 (N'WOLZA','1998-02-04 00:00:00.0','1998-02-13 00:00:00.0',N'Wolski Zajazd',N'ul. Filtrowa 68',N'Warszawa',N'01-012',N'Poland'),
@@ -694,7 +694,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BERGS','1998-02-06 00:00:00.0','1998-03-03 00:00:00.0',N'Berglunds snabbköp',N'Berguvsvägen  8',N'Luleå',N'S-958 22',N'Sweden'),
 	 (N'BONAP','1998-02-09 00:00:00.0','1998-02-12 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
 	 (N'RICAR','1998-02-09 00:00:00.0','1998-02-19 00:00:00.0',N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1998-02-10 00:00:00.0','1998-02-12 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'WILMK','1998-02-10 00:00:00.0','1998-02-12 00:00:00.0',N'Wilman Kala',N'Keskuskatu 45',N'Helsinki',N'21240',N'Finland'),
 	 (N'FOLKO','1998-02-10 00:00:00.0','1998-02-18 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
@@ -705,7 +705,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SUPRD','1998-02-12 00:00:00.0','1998-02-18 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'HANAR','1998-02-13 00:00:00.0','1998-03-02 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
 	 (N'GALED','1998-02-13 00:00:00.0','1998-02-16 00:00:00.0',N'Galería del gastronómo',N'Rambla de Cataluña, 23',N'Barcelona',N'8022',N'Spain');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GODOS','1998-02-16 00:00:00.0','1998-02-23 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain'),
 	 (N'RATTC','1998-02-16 00:00:00.0','1998-02-23 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'DUMON','1998-02-16 00:00:00.0','1998-02-18 00:00:00.0',N'Du monde entier',N'67, rue des Cinquante Otages',N'Nantes',N'44000',N'France'),
@@ -716,7 +716,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'ERNSH','1998-02-18 00:00:00.0','1998-02-23 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'MAISD','1998-02-19 00:00:00.0','1998-02-27 00:00:00.0',N'Maison Dewey',N'Rue Joseph-Bens 532',N'Bruxelles',N'B-1180',N'Belgium'),
 	 (N'HUNGO','1998-02-19 00:00:00.0','1998-02-25 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'OCEAN','1998-02-20 00:00:00.0','1998-03-06 00:00:00.0',N'Océano Atlántico Ltda.',N'Ing. Gustavo Moncada 8585 Piso 20-A',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'LILAS','1998-02-20 00:00:00.0','1998-02-26 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
 	 (N'WELLI','1998-02-20 00:00:00.0','1998-03-04 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
@@ -727,7 +727,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WELLI','1998-02-24 00:00:00.0','1998-03-06 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
 	 (N'WOLZA','1998-02-25 00:00:00.0','1998-03-03 00:00:00.0',N'Wolski Zajazd',N'ul. Filtrowa 68',N'Warszawa',N'01-012',N'Poland'),
 	 (N'SPECD','1998-02-25 00:00:00.0','1998-02-27 00:00:00.0',N'Spécialités du monde',N'25, rue Lauriston',N'Paris',N'75016',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'REGGC','1998-02-26 00:00:00.0','1998-03-06 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
 	 (N'SANTG','1998-02-26 00:00:00.0','1998-03-10 00:00:00.0',N'Santé Gourmet',N'Erling Skakkes gate 78',N'Stavern',N'4110',N'Norway'),
 	 (N'WILMK','1998-02-26 00:00:00.0','1998-03-04 00:00:00.0',N'Wilman Kala',N'Keskuskatu 45',N'Helsinki',N'21240',N'Finland'),
@@ -738,7 +738,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'TORTU','1998-02-27 00:00:00.0','1998-03-02 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'RANCH','1998-02-27 00:00:00.0','1998-03-09 00:00:00.0',N'Rancho grande',N'Av. del Libertador 900',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'ROMEY','1998-03-02 00:00:00.0','1998-03-11 00:00:00.0',N'Romero y tomillo',N'Gran Vía, 1',N'Madrid',N'28001',N'Spain');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BOTTM','1998-03-02 00:00:00.0','1998-03-11 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'LINOD','1998-03-02 00:00:00.0','1998-03-04 00:00:00.0',N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'AROUT','1998-03-03 00:00:00.0','1998-03-09 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK'),
@@ -749,7 +749,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HANAR','1998-03-04 00:00:00.0','1998-03-13 00:00:00.0',N'Hanari Carnes',N'Rua do Paço, 67',N'Rio de Janeiro',N'05454-876',N'Brazil'),
 	 (N'ANATR','1998-03-04 00:00:00.0','1998-03-11 00:00:00.0',N'Ana Trujillo Emparedados y helados',N'Avda. de la Constitución 2222',N'México D.F.',N'05021',N'Mexico'),
 	 (N'LACOR','1998-03-05 00:00:00.0','1998-04-08 00:00:00.0',N'La corne d''abondance',N'67, avenue de l''Europe',N'Versailles',N'78000',N'France');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GALED','1998-03-05 00:00:00.0','1998-03-18 00:00:00.0',N'Galería del gastronómo',N'Rambla de Cataluña, 23',N'Barcelona',N'8022',N'Spain'),
 	 (N'FRANK','1998-03-05 00:00:00.0','1998-03-12 00:00:00.0',N'Frankenversand',N'Berliner Platz 43',N'München',N'80805',N'Germany'),
 	 (N'SUPRD','1998-03-06 00:00:00.0','1998-03-18 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
@@ -760,7 +760,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WELLI','1998-03-09 00:00:00.0','1998-03-18 00:00:00.0',N'Wellington Importadora',N'Rua do Mercado, 12',N'Resende',N'08737-363',N'Brazil'),
 	 (N'GREAL','1998-03-09 00:00:00.0','1998-03-18 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'CACTU','1998-03-10 00:00:00.0','1998-03-13 00:00:00.0',N'Cactus Comidas para llevar',N'Cerrito 333',N'Buenos Aires',N'1010',N'Argentina');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUICK','1998-03-10 00:00:00.0','1998-03-16 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'MAGAA','1998-03-10 00:00:00.0','1998-03-13 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
 	 (N'BONAP','1998-03-11 00:00:00.0','1998-03-23 00:00:00.0',N'Bon app''',N'12, rue des Bouchers',N'Marseille',N'13008',N'France'),
@@ -771,7 +771,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'MORGK','1998-03-12 00:00:00.0','1998-03-18 00:00:00.0',N'Morgenstern Gesundkost',N'Heerstr. 22',N'Leipzig',N'04179',N'Germany'),
 	 (N'VAFFE','1998-03-12 00:00:00.0','1998-03-19 00:00:00.0',N'Vaffeljernet',N'Smagsloget 45',N'Århus',N'8200',N'Denmark'),
 	 (N'BSBEV','1998-03-13 00:00:00.0','1998-03-16 00:00:00.0',N'B''s Beverages',N'Fauntleroy Circus',N'London',N'EC2 5NT',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'GODOS','1998-03-13 00:00:00.0','1998-03-19 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain'),
 	 (N'BOTTM','1998-03-13 00:00:00.0','1998-03-17 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'MAGAA','1998-03-16 00:00:00.0','1998-03-23 00:00:00.0',N'Magazzini Alimentari Riuniti',N'Via Ludovico il Moro 22',N'Bergamo',N'24100',N'Italy'),
@@ -782,7 +782,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'FOLKO','1998-03-17 00:00:00.0','1998-03-20 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
 	 (N'BLAUS','1998-03-17 00:00:00.0','1998-03-20 00:00:00.0',N'Blauer See Delikatessen',N'Forsterstr. 57',N'Mannheim',N'68306',N'Germany'),
 	 (N'HILAA','1998-03-18 00:00:00.0','1998-03-27 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'OCEAN','1998-03-18 00:00:00.0','1998-03-27 00:00:00.0',N'Océano Atlántico Ltda.',N'Ing. Gustavo Moncada 8585 Piso 20-A',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'GOURL','1998-03-18 00:00:00.0','1998-03-23 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil'),
 	 (N'HILAA','1998-03-19 00:00:00.0','1998-04-08 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
@@ -793,7 +793,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'OLDWO','1998-03-20 00:00:00.0','1998-03-30 00:00:00.0',N'Old World Delicatessen',N'2743 Bering St.',N'Anchorage',N'99508',N'USA'),
 	 (N'CHOPS','1998-03-20 00:00:00.0','1998-04-08 00:00:00.0',N'Chop-suey Chinese',N'Hauptstr. 31',N'Bern',N'3012',N'Switzerland'),
 	 (N'TOMSP','1998-03-23 00:00:00.0','1998-04-02 00:00:00.0',N'Toms Spezialitäten',N'Luisenstr. 48',N'Münster',N'44087',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ERNSH','1998-03-23 00:00:00.0','1998-04-01 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'COMMI','1998-03-23 00:00:00.0','1998-03-30 00:00:00.0',N'Comércio Mineiro',N'Av. dos Lusíadas, 23',N'Sao Paulo',N'05432-043',N'Brazil'),
 	 (N'BOLID','1998-03-24 00:00:00.0','1998-04-24 00:00:00.0',N'Bólido Comidas preparadas',N'C/ Araquil, 67',N'Madrid',N'28023',N'Spain'),
@@ -804,7 +804,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BOTTM','1998-03-25 00:00:00.0','1998-03-27 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'HILAA','1998-03-25 00:00:00.0','1998-04-03 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'FOLKO','1998-03-26 00:00:00.0','1998-04-10 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'MAISD','1998-03-26 00:00:00.0','1998-04-23 00:00:00.0',N'Maison Dewey',N'Rue Joseph-Bens 532',N'Bruxelles',N'B-1180',N'Belgium'),
 	 (N'ERNSH','1998-03-26 00:00:00.0','1998-03-31 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'FOLKO','1998-03-27 00:00:00.0','1998-04-17 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
@@ -815,7 +815,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HUNGO','1998-03-30 00:00:00.0','1998-04-02 00:00:00.0',N'Hungry Owl All-Night Grocers',N'8 Johnstown Road',N'Cork',NULL,N'Ireland'),
 	 (N'OCEAN','1998-03-30 00:00:00.0','1998-04-21 00:00:00.0',N'Océano Atlántico Ltda.',N'Ing. Gustavo Moncada 8585 Piso 20-A',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'EASTC','1998-03-31 00:00:00.0','1998-04-06 00:00:00.0',N'Eastern Connection',N'35 King George',N'London',N'WX3 6FW',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'RATTC','1998-03-31 00:00:00.0','1998-04-10 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
 	 (N'QUEDE','1998-03-31 00:00:00.0','1998-04-02 00:00:00.0',N'Que Delícia',N'Rua da Panificadora, 12',N'Rio de Janeiro',N'02389-673',N'Brazil'),
 	 (N'ERNSH','1998-04-01 00:00:00.0','1998-04-07 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
@@ -826,7 +826,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'PERIC','1998-04-02 00:00:00.0','1998-04-06 00:00:00.0',N'Pericles Comidas clásicas',N'Calle Dr. Jorge Cash 321',N'México D.F.',N'05033',N'Mexico'),
 	 (N'QUICK','1998-04-02 00:00:00.0','1998-04-10 00:00:00.0',N'QUICK-Stop',N'Taucherstraße 10',N'Cunewalde',N'01307',N'Germany'),
 	 (N'LILAS','1998-04-03 00:00:00.0','1998-04-13 00:00:00.0',N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'WOLZA','1998-04-03 00:00:00.0','1998-04-17 00:00:00.0',N'Wolski Zajazd',N'ul. Filtrowa 68',N'Warszawa',N'01-012',N'Poland'),
 	 (N'OTTIK','1998-04-03 00:00:00.0','1998-04-10 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
 	 (N'RATTC','1998-04-06 00:00:00.0','1998-04-14 00:00:00.0',N'Rattlesnake Canyon Grocery',N'2817 Milton Dr.',N'Albuquerque',N'87110',N'USA'),
@@ -837,7 +837,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WILMK','1998-04-07 00:00:00.0','1998-04-10 00:00:00.0',N'Wilman Kala',N'Keskuskatu 45',N'Helsinki',N'21240',N'Finland'),
 	 (N'GREAL','1998-04-07 00:00:00.0','1998-04-15 00:00:00.0',N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
 	 (N'PRINI','1998-04-08 00:00:00.0','1998-04-13 00:00:00.0',N'Princesa Isabel Vinhos',N'Estrada da saúde n. 58',N'Lisboa',N'1756',N'Portugal');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'ERNSH','1998-04-08 00:00:00.0',NULL,N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria'),
 	 (N'GODOS','1998-04-08 00:00:00.0','1998-04-10 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain'),
 	 (N'REGGC','1998-04-09 00:00:00.0','1998-04-21 00:00:00.0',N'Reggiani Caseifici',N'Strada Provinciale 124',N'Reggio Emilia',N'42100',N'Italy'),
@@ -848,7 +848,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SANTG','1998-04-10 00:00:00.0','1998-04-20 00:00:00.0',N'Santé Gourmet',N'Erling Skakkes gate 78',N'Stavern',N'4110',N'Norway'),
 	 (N'AROUT','1998-04-10 00:00:00.0','1998-04-13 00:00:00.0',N'Around the Horn',N'Brook Farm Stratford St. Mary',N'Colchester',N'CO7 6JX',N'UK'),
 	 (N'ERNSH','1998-04-13 00:00:00.0','1998-04-20 00:00:00.0',N'Ernst Handel',N'Kirchgasse 6',N'Graz',N'8010',N'Austria');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'LONEP','1998-04-13 00:00:00.0','1998-04-16 00:00:00.0',N'Lonesome Pine Restaurant',N'89 Chiaroscuro Rd.',N'Portland',N'97219',N'USA'),
 	 (N'RANCH','1998-04-13 00:00:00.0',NULL,N'Rancho grande',N'Av. del Libertador 900',N'Buenos Aires',N'1010',N'Argentina'),
 	 (N'OTTIK','1998-04-14 00:00:00.0','1998-04-16 00:00:00.0',N'Ottilies Käseladen',N'Mehrheimerstr. 369',N'Köln',N'50739',N'Germany'),
@@ -859,7 +859,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'WARTH','1998-04-15 00:00:00.0','1998-04-24 00:00:00.0',N'Wartian Herkku',N'Torikatu 38',N'Oulu',N'90110',N'Finland'),
 	 (N'FRANS','1998-04-15 00:00:00.0','1998-04-28 00:00:00.0',N'Franchi S.p.A.',N'Via Monte Bianco 34',N'Torino',N'10100',N'Italy'),
 	 (N'BOTTM','1998-04-16 00:00:00.0','1998-04-20 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'KOENE','1998-04-16 00:00:00.0','1998-04-22 00:00:00.0',N'Königlich Essen',N'Maubelstr. 90',N'Brandenburg',N'14776',N'Germany'),
 	 (N'CHOPS','1998-04-16 00:00:00.0','1998-04-27 00:00:00.0',N'Chop-suey Chinese',N'Hauptstr. 31',N'Bern',N'3012',N'Switzerland'),
 	 (N'SAVEA','1998-04-17 00:00:00.0','1998-04-27 00:00:00.0',N'Save-a-lot Markets',N'187 Suffolk Ln.',N'Boise',N'83720',N'USA'),
@@ -870,7 +870,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'SUPRD','1998-04-20 00:00:00.0','1998-04-24 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'DRACD','1998-04-20 00:00:00.0','1998-04-22 00:00:00.0',N'Drachenblut Delikatessen',N'Walserweg 21',N'Aachen',N'52066',N'Germany'),
 	 (N'GODOS','1998-04-21 00:00:00.0','1998-04-27 00:00:00.0',N'Godos Cocina Típica',N'C/ Romero, 33',N'Sevilla',N'41101',N'Spain');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'SUPRD','1998-04-21 00:00:00.0','1998-04-30 00:00:00.0',N'Suprêmes délices',N'Boulevard Tirou, 255',N'Charleroi',N'B-6000',N'Belgium'),
 	 (N'LINOD','1998-04-21 00:00:00.0',NULL,N'LINO-Delicateses',N'Ave. 5 de Mayo Porlamar',N'I. de Margarita',N'4980',N'Venezuela'),
 	 (N'GREAL','1998-04-22 00:00:00.0',NULL,N'Great Lakes Food Market',N'2732 Baker Blvd.',N'Eugene',N'97403',N'USA'),
@@ -881,7 +881,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'BOTTM','1998-04-23 00:00:00.0',NULL,N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'WANDK','1998-04-23 00:00:00.0','1998-04-24 00:00:00.0',N'Die Wandernde Kuh',N'Adenauerallee 900',N'Stuttgart',N'70563',N'Germany'),
 	 (N'EASTC','1998-04-24 00:00:00.0','1998-05-01 00:00:00.0',N'Eastern Connection',N'35 King George',N'London',N'WX3 6FW',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BOTTM','1998-04-24 00:00:00.0','1998-04-30 00:00:00.0',N'Bottom-Dollar Markets',N'23 Tsawassen Blvd.',N'Tsawassen',N'T2F 8M4',N'Canada'),
 	 (N'GOURL','1998-04-24 00:00:00.0','1998-05-04 00:00:00.0',N'Gourmet Lanchonetes',N'Av. Brasil, 442',N'Campinas',N'04876-786',N'Brazil'),
 	 (N'FOLKO','1998-04-27 00:00:00.0','1998-05-05 00:00:00.0',N'Folk och fä HB',N'Åkergatan 24',N'Bräcke',N'S-844 67',N'Sweden'),
@@ -892,7 +892,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'HILAA','1998-04-28 00:00:00.0','1998-05-05 00:00:00.0',N'HILARION-Abastos',N'Carrera 22 con Ave. Carlos Soublette #8-35',N'San Cristóbal',N'5022',N'Venezuela'),
 	 (N'EASTC','1998-04-28 00:00:00.0','1998-05-01 00:00:00.0',N'Eastern Connection',N'35 King George',N'London',N'WX3 6FW',N'UK'),
 	 (N'NORTS','1998-04-29 00:00:00.0','1998-05-01 00:00:00.0',N'North/South',N'South House 300 Queensbridge',N'London',N'SW7 1RZ',N'UK');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'BLAUS','1998-04-29 00:00:00.0',NULL,N'Blauer See Delikatessen',N'Forsterstr. 57',N'Mannheim',N'68306',N'Germany'),
 	 (N'RICAR','1998-04-29 00:00:00.0',NULL,N'Ricardo Adocicados',N'Av. Copacabana, 267',N'Rio de Janeiro',N'02389-890',N'Brazil'),
 	 (N'FRANS','1998-04-30 00:00:00.0','1998-05-04 00:00:00.0',N'Franchi S.p.A.',N'Via Monte Bianco 34',N'Torino',N'10100',N'Italy'),
@@ -903,7 +903,7 @@ INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,sh
 	 (N'LILAS','1998-05-01 00:00:00.0',NULL,N'LILA-Supermercado',N'Carrera 52 con Ave. Bolívar #65-98 Llano Largo',N'Barquisimeto',N'3508',N'Venezuela'),
 	 (N'WHITC','1998-05-01 00:00:00.0','1998-05-04 00:00:00.0',N'White Clover Markets',N'1029 - 12th Ave. S.',N'Seattle',N'98124',N'USA'),
 	 (N'DRACD','1998-05-04 00:00:00.0','1998-05-06 00:00:00.0',N'Drachenblut Delikatessen',N'Walserweg 21',N'Aachen',N'52066',N'Germany');
-INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postalcode,ship_country) VALUES
+INSERT INTO dbo.purchase_order (customer_id,order_date,shipped_date,ship_name,ship_address,ship_city,ship_postal_code,ship_country) VALUES
 	 (N'QUEEN','1998-05-04 00:00:00.0',NULL,N'Queen Cozinha',N'Alameda dos Canàrios, 891',N'Sao Paulo',N'05487-020',N'Brazil'),
 	 (N'TORTU','1998-05-04 00:00:00.0','1998-05-06 00:00:00.0',N'Tortuga Restaurante',N'Avda. Azteca 123',N'México D.F.',N'05033',N'Mexico'),
 	 (N'LEHMS','1998-05-05 00:00:00.0',NULL,N'Lehmanns Marktstand',N'Magazinweg 7',N'Frankfurt a.M.',N'60528',N'Germany'),
