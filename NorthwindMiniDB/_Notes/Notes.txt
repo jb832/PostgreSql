@@ -1,0 +1,52 @@
+
+
+
+
+Example of PostgreSql procedure:
+
+
+
+CREATE OR REPLACE PROCEDURE update_stock(p_item_id INT, p_quantity INT)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    -- Rule 1: Every variable declaration must end with a semicolon
+    current_stock INT;
+BEGIN
+    -- Rule 2: Do NOT put a semicolon after BEGIN
+
+    -- Rule 3: Every SQL statement inside the block must have a semicolon
+    SELECT stock_count INTO current_stock
+    FROM inventory
+    WHERE id = p_item_id;
+
+    IF current_stock >= p_quantity THEN
+        UPDATE inventory
+        SET stock_count = stock_count - p_quantity
+        WHERE id = p_item_id;
+
+        RAISE NOTICE 'Stock updated successfully.';
+    ELSE
+        RAISE EXCEPTION 'Insufficient stock.';
+    END IF; -- Rule 4: Control structures like END IF need a semicolon
+
+-- Rule 5: The final END of the function body does not strictly require
+-- a semicolon, but the statement creating the procedure does ($$;).
+END;
+$$;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
