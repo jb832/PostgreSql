@@ -1,6 +1,6 @@
 ﻿-- Create Table...
 
-CREATE TABLE dbo.sql_types
+CREATE TABLE temp_table
 (
     id                          INT                 NOT NULL PRIMARY KEY,
 
